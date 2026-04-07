@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.vimeo.com https://*.google.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://* http://*; video-src 'self' https://*.vimeo.com; connect-src 'self' https://*.google.com https://*.vimeo.com;" />
+    <title>LOOKS Salon KL | Luxury Hair & Beauty Destination in Kuala Lumpur</title>
+    <meta name="description" content="Experience the pinnacle of luxury hair care at LOOKS Salon KL. Specializing in high-end hair styling, coloring, and treatments in the heart of Kuala Lumpur. Book your transformation today." />
+    <meta name="keywords" content="luxury hair salon KL, best hair stylist Kuala Lumpur, high-end hair coloring KL, premium hair treatments Malaysia, LOOKS Salon KL, hair styling Kuala Lumpur, luxury beauty destination KL" />
+    <link rel="canonical" href="https://lookssalon.my/" />
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lookssalon.my/" />
+    <meta property="og:title" content="LOOKS Salon KL | Luxury Hair & Beauty Destination" />
+    <meta property="og:description" content="The ultimate destination for luxury hair and beauty in Kuala Lumpur. Discover our world-class stylists and premium treatments." />
+    <meta property="og:image" content="https://picsum.photos/seed/looks-salon/1200/630" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://lookssalon.my/" />
+    <meta property="twitter:title" content="LOOKS Salon KL | Luxury Hair & Beauty Destination" />
+    <meta property="twitter:description" content="The ultimate destination for luxury hair and beauty in Kuala Lumpur. Discover our world-class stylists and premium treatments." />
+    <meta property="twitter:image" content="https://picsum.photos/seed/looks-salon/1200/630" />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HairSalon",
+      "name": "LOOKS Salon KL",
+      "image": "https://picsum.photos/seed/looks-salon/1200/630",
+      "@id": "https://lookssalon.my/",
+      "url": "https://lookssalon.my/",
+      "telephone": "+60126175555",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Luxury Suites, Jalan Ampang",
+        "addressLocality": "Kuala Lumpur",
+        "postalCode": "50450",
+        "addressCountry": "MY"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 3.1579,
+        "longitude": 101.7116
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "10:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "11:00",
+          "closes": "18:00"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/lookssalonkl",
+        "https://www.instagram.com/lookssalonkl"
+      ],
+      "priceRange": "$$$"
+    }
+    </script>
+  </head>
+  <body>
+    <script>
+      (function() {
+        try {
+          const originalFetch = window.fetch;
+          Object.defineProperty(window, 'fetch', {
+            value: originalFetch,
+            writable: true,
+            configurable: true
+          });
+        } catch (e) {
+          console.warn('Could not patch window.fetch:', e);
+        }
+      })();
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
