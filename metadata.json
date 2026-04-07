@@ -1,0 +1,7 @@
+{
+  "name": "LOOKS Salon KL - Premium Hair & Beauty",
+  "description": "Award-winning international salon in Brickfields near KL Sentral. Premium hair, nails, beauty, and treatments for men and women. Featuring a luxury hair care guide and blog.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
