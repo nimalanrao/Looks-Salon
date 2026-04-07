@@ -19,3 +19,4 @@ View your app in AI Studio: https://ai.studio/apps/c8b0d151-1253-4edc-825b-4f84b
 3. Run the app:
    `npm run dev`
 # Looks-Salon
+# Looks-Salon
